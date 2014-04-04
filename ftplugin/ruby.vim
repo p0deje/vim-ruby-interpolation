@@ -1,4 +1,3 @@
-" Ruby string interpolation
 function! s:InsertInterpolation()
   let before = getline('.')[col('^'):col('.')]
   let after  = getline('.')[col('.'):col('$')]
